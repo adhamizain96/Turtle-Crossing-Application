@@ -13,6 +13,7 @@ from scoreboard import Scoreboard
 screen = t.Screen()
 screen.setup(width = 500, height = 500)
 #t.tracer() - turn turtle animation on/off and set delay for update drawings.
+screen.title('Turtle Crossing Game')
 screen.tracer(0)
 
 player = Player()

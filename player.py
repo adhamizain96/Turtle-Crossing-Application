@@ -14,9 +14,11 @@ class Player(t.Turtle):
     def __init__(self):
         super().__init__()
         self.shape('turtle')
+        #t.penup() - pull the pen up - no drawing when moving.
         self.penup
         self.start_position()
-        self.setheading(100)
+        #t.setheading() - set the orientation of the turtle to to_angle
+        self.setheading(90)
     def go_up(self):
         #t.forward() - move the turtle forward by the specified distance, in the direction the turtle is headed.
         self.forward(MOVE_DIS)

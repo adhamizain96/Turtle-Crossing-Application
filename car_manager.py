@@ -10,7 +10,7 @@ import random
 #3 primary colors - red, yellow, blue / 3 secondary colors - orange, green, violet
 COLORS = ['red', 'yellow', 'blue', 'orange', 'green', 'purple']
 START_MOVE_DIS = 5
-MOVE_INCREMENT = 10
+MOVE_INCREMENT = 5
 
 class Car_Manager:
     def __init__(self):
